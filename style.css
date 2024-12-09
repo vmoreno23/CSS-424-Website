@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 1en;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #A8C6FA;
+}
+header {
+	background-color: #A8C6FA;
+}
+
+section1 {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+}
+h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;	
+}
+nav {
+	background-color: #FEF8A0;
+	font-weight: bold;
+	font-size: 20px;
+}
+main{
+	margin-top: 50px;
+	background-color: #A8C6FA;
+}
+footer{
+	background-color: #000000;
+	font-size: .9en;
+	font-style: italic;
+	color: #FEF8A0;
+	margin-top: auto;
+}
+
+
+/* table */
+table, td, th {
+	border: 1px solid #000000;
+	border-spacing: 0;
+	background-color: #FEF8A0;
+}
+
+table{
+	
+}
+
+th{
+	font-family: Times New Roman, serif;
+	text-align: center;
+}
+
+td{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+th, td {
+	padding: 10px;
+}
+
+.navbar {
+	background-color: #FEF8A0 !important;
+}
+.nav-link, .navbar-brand {
+	color: black;
+}
+.nav-link:hover {
+	color: #A8C6FA;
+}
+
+#toggleSection {
+	display: none;
+}
+
+#toggleButton {
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, opacity 0.3s ease;
+
+}
+
+#toggleButton:hover {
+	opacity: 0.8;
+}
+
+#toggleButton.active {
+	background-color: #FFF;
+	color: #000000;
+	
+}
+
+#toggleButton.inactive {
+	background-color: #FEF8A0;
+	color: #000;
+}
